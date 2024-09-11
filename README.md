@@ -37,6 +37,6 @@ Email Sender: Automatically sends the certificates as email attachments to the p
 ## Step 3: Running the Script
 
 <div style="background-color: #0d1117; padding: 16px; border-radius: 6px; margin-bottom: 16px;">
-  <pre style="margin: 0;"><code style="color: #c9d1d9; background-color: #0d1117;">python certificate_maker.py
+  <pre style="margin: 0;"><code style="color: #c9d1d9; background-color: #0d1117;">python cert_autobot.py
 </code></pre>
 </div>
