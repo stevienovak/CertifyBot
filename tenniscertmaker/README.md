@@ -1,39 +1,42 @@
-pycert
-======
+# CertifyBot
+CertifyBot is a streamlined tool designed to automate the tedious process of generating certificates and emailing them to participants. With simple customization options, it efficiently creates and sends personalized certificates, saving time and eliminating manual tasks.
 
-PyCert: Automated Certificate Generator and Emailer for PyCon PH
+# Project Overview
+This script automates the creation and distribution of certificates for a tennis club in Singapore, recognizing participants for their efforts in winning the Singapore club. It processes a CSV file containing participant names and email addresses, generates personalized PDF certificates, and sends them via email. This solution has been effectively used to distribute certificates to hundreds of participants annually.
 
-Developed for PyCon PH 2015, this script automates the process of creating and distributing attendance certificates. It efficiently processes a CSV file containing attendee names and emails, generates individual PDF certificates, and emails them to each participant. Due to its effectiveness, it has been utilized annually to handle certificate distribution for hundreds of attendees.
+## Input:
+A CSV file containing a list of participant names and email addresses.
+## Output:
+Automatically generates individual PDFs (Certificates of Achievement) and emails them to each participant.
+## Main Components:
 
-- Input: accepts a CSV file which contains a list of attendee names and emails
-- Output: generate multiple PDFs (certificate of attendance) and then sends the certificates via email to each paticipant.
+Certificate Generator: Creates personalized certificates in PDF format to celebrate participants' achievements.
 
-Main Parts:
+Email Sender: Automatically sends the certificates as email attachments to the participants.
 
-- certificate maker
-- email sender with pdf attachment
+## Step 1: Setup
 
-## Dev Environment Setup
-```
-(pycert) $ pip install -r requirements.txt
-```
+<div style="background-color: #0d1117; padding: 16px; border-radius: 6px; margin-bottom: 16px;">
+  <pre style="margin: 0;"><code style="color: #c9d1d9; background-color: #0d1117;">git clone https://github.com/stevienovak/CertifyBot.git</code></pre>
+</div>
 
-## Settings
-Add a `settings.json` in `config/` folder with the following format:
-```
-{
-    "gmail_user": "you@gmail.com",
-    "gmail_password": "<your-app-password>"
-}
-```
+## Step 2: Write up your JSON File in the Config folder as follows:
 
+<div style="background-color: #0d1117; padding: 16px; border-radius: 6px; margin-bottom: 16px;">
+  <pre style="margin: 0;"><code style="color: #c9d1d9; background-color: #0d1117;">
+    
+    dict1 = {
+    "gmail_user": "[YourUserName@gmail.com",
+    "gmail_password": "[Password]"
+    }
+    with open("settings.json", "w") as out_file:
+      json.dump(dict1, out_file, indent=4, sort_keys=False)
+</code></pre>
+</div>
 
+## Step 3: Running the Script
 
-## References:
-
-### Generating PDF
-- https://realpython.com/creating-modifying-pdf/#setting-font-properties
-- https://medium.com/@schedulepython/how-to-watermark-your-pdf-files-with-python-f193fb26656e
-
-### Sending Email
-- https://realpython.com/python-send-email/#adding-attachments-using-the-email-package
+<div style="background-color: #0d1117; padding: 16px; border-radius: 6px; margin-bottom: 16px;">
+  <pre style="margin: 0;"><code style="color: #c9d1d9; background-color: #0d1117;">python cert_autobot.py
+</code></pre>
+</div>
