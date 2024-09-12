@@ -43,6 +43,7 @@ Email Sender: Automatically sends the certificates as email attachments to the p
 
 
 <p align="center">
-  <img src="https://github.com/stevienovak/garage/blob/main/Github_Compressed_final.gif" alt="Garage Gif">
+  <img src="https://github.com/stevienovak/garage/blob/main/Github_Compressed_final.gif" alt="Garage Gif" width="600">
 </p>
+
 
