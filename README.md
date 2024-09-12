@@ -40,3 +40,9 @@ Email Sender: Automatically sends the certificates as email attachments to the p
   <pre style="margin: 0;"><code style="color: #c9d1d9; background-color: #0d1117;">python cert_autobot.py
 </code></pre>
 </div>
+
+
+<p align="center">
+  <img src="https://github.com/stevienovak/garage/blob/main/Github_Compressed_final.gif" alt="Garage Gif">
+</p>
+
