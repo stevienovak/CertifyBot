@@ -2,7 +2,7 @@
 CertifyBot is a streamlined tool designed to automate the tedious process of generating certificates and emailing them to participants. With simple customization options, it efficiently creates and sends personalized certificates, saving time and eliminating manual tasks.
 
 # Project Overview
-This script automates the creation and distribution of certificates for a tennis club in Singapore, recognizing participants for their efforts in winning the Singapore club. It processes a CSV file containing participant names and email addresses, generates personalized PDF certificates, and sends them via email. This solution has been effectively used to distribute certificates to hundreds of participants annually.
+This script automates the creation and distribution of certificates for a tennis club in Singapore, recognizing participants for their efforts in winning the Singapore cup. It processes a CSV file containing participant names and email addresses, generates personalized PDF certificates, and sends them via email. This solution has been effectively used to distribute certificates to hundreds of participants annually.
 
 ## Input:
 A CSV file containing a list of participant names and email addresses.
