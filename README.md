@@ -12,7 +12,7 @@ Automatically generates individual PDFs (Certificates of Achievement) and emails
 
 Certificate Generator: Creates personalized certificates in PDF format to celebrate participants' achievements.
 
-Email Sender: Automatically sends the certificates as email attachments to the participants.
+Email Sender: Automatically sends the certificates as email attachments to the participants of the event. 
 
 ## Step 1: Setup
 
